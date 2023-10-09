@@ -26,13 +26,15 @@ The Taxaw Temm platform aims to cater to a diverse audience, including young ind
 By integrating these features and objectives, the Taxaw Temm platform strives not only to raise awareness about digital security but also to provide concrete tools and support mechanisms, ensuring a positive and secure online experience for everyone.
 
 
-[![Button Click]][Link] 
+[![Button Click]][Link]
 
-
-
-
-
-[Button Click]: https://img.shields.io/badge/Click_Me!-37a779?style=for-the-badge
-
-
+[Button Click]: https://img.shields.io/badge/Click_Me!-37a779?style=for-the-badge&color=gray 
 [Link]: https://taxawtemm.netlify.app 'Link with example title.'
+
+
+[![View Project]][Project Link] 
+
+[View Project]: https://img.shields.io/badge/View_Project-37a779?style=for-the-badge&color=gray 
+[Project Link]: https://github.com/mbayedione10/taxawtemm 'TaxawTemm'
+
+
