@@ -1,8 +1,8 @@
 ---
 title: TaxawTemm
 publishDate: 2023-08-02 00:00:00
-img: /assets/taxawtemm.png
-img_alt: webstite presentation
+img: https://res.cloudinary.com/dkgciiiov/image/upload/v1696932184/rlqzg3gswabpqrdxh7ab.png
+img_alt: a screen shot of a web page with a purple and blue background
 description: |
   I developed the Taxaw Temm web platform, focusing on creating interactive features, ensuring accessibility of the 'Taxaw Temm!' toolkit online, and enhancing digital security awareness to combat cyberbullying.
 tags:

@@ -1,8 +1,8 @@
 ---
 title: Food Delivery Web App
 publishDate: 2021-03-20 00:00:00
-img: /assets/food-delivery.png
-img_alt: webstite presentation
+img: https://res.cloudinary.com/dkgciiiov/image/upload/v1696932194/fc8swbifmki0xbtxxvob.png
+img_alt: a plate of food with potatoes and broccoli on the side, and the words, welcome to taste restaurant
 description: |
   I developed a food delivery web app using Django, focusing on creating seamless user experiences, optimizing delivery processes, and enhancing overall customer satisfaction.
 tags:
