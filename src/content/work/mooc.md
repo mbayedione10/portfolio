@@ -11,21 +11,20 @@ tags:
   - Dev
 ---
 
-The Charter Project Africa Online Course is a comprehensive learning experience designed to promote civic engagement, political literacy, and active citizenship. This initiative, accessible at mooc.africtivistes.org, offers valuable insights into democratic processes, citizen rights, transparent governance, and more.
+The Charter Project Africa Online Course is a comprehensive learning experience designed to promote civic engagement, political literacy, and active citizenship. This initiative, accessible at [mooc.africtivistes.org](mooc.africtivistes.org), offers valuable insights into democratic processes, citizen rights, transparent governance, and more.
 
 **Key Topics:**
-Citizen Engagement
-Participatory Democracy
-Elections and Political Processes
-Transparency and Accountability
-Access to Information
-Good Governance Principles
-
++ Citizen Engagement
++ Participatory Democracy
++ Elections and Political Processes
++ Transparency and Accountability
++ Access to Information
++ Good Governance Principles
 
 [![Button Click]][Link]
 
 [Button Click]: https://img.shields.io/badge/CLICK_TO_EXPLORE!-37a779?style=for-the-badge&color=gray 
-[Link]: https://mooc.africtivistes.org'Link with example title.'
+[Link]: https://mooc.africtivistes.org 'Link with example title.'
 
 
 

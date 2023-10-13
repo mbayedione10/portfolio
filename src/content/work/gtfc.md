@@ -14,16 +14,16 @@ tags:
 
 The GTFC Monitoring and Evaluation Platform is designed to support local administrations in embracing digital tools for budget transparency, open governance, and citizen engagement. At its core, it provides essential functionalities such as meeting reporting, monitoring and evaluation, toolbox integration, and mission reporting. Developed in close collaboration with the municipal team, this platform is a testament to streamlined processes and collaborative decision-making.
 
-#### Key Features:
+**Key Features:**
 
-**Agenda Module**: Structured meetings become a reality with our Agenda module. Plan and organize discussions effectively by creating detailed agendas, specifying discussion points, involved participants, and associated documents. Meetings are now more focused and productive.  
+*Agenda Module*: Structured meetings become a reality with our Agenda module. Plan and organize discussions effectively by creating detailed agendas, specifying discussion points, involved participants, and associated documents. Meetings are now more focused and productive.  
 
-**Report Module**: Capture decisions, assign responsibilities, and record key discussions with our Report module. Trace information precisely and enhance coordination among stakeholders. This module facilitates effective implementation of decisions and ensures accountability.
+*Report Module*: Capture decisions, assign responsibilities, and record key discussions with our Report module. Trace information precisely and enhance coordination among stakeholders. This module facilitates effective implementation of decisions and ensures accountability.
 
-**Accessibility and Flexibility**:
+*Accessibility and Flexibility*:
 Understanding the challenges faced by the GTFC municipality, the platform is optimized for mobile devices and varying connectivity conditions. The municipal team can access and update agendas and reports from anywhere, empowering them even in resource-constrained environments.
 
-#### Open Source and Recognition:
+**Open Source and Recognition:**
 
 ![Hackaton Prize](https://res.cloudinary.com/dkgciiiov/image/upload/v1697131225/n2clrzbz3kkm5xnzg5ia.jpg)
 
