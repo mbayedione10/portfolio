@@ -11,7 +11,6 @@ tags:
   - Dev
 ---
 
-Parler du prix runner up hackatton refine
 
 The GTFC Monitoring and Evaluation Platform is designed to support local administrations in embracing digital tools for budget transparency, open governance, and citizen engagement. At its core, it provides essential functionalities such as meeting reporting, monitoring and evaluation, toolbox integration, and mission reporting. Developed in close collaboration with the municipal team, this platform is a testament to streamlined processes and collaborative decision-making.
 
