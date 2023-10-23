@@ -1,0 +1,16 @@
+---
+type TechBadgeProps = {
+    name: string;
+    imgSrc: string;
+    altSrc: string;
+};
+
+const { name, imgSrc, altSrc } = Astro.props as TechBadgeProps
+---
+
+<div>
+    <div>
+        <img src={imgSrc} alt={altSrc} height="80" width="80"/>
+    </div>
+    <p>{name}</p>
+</div>
