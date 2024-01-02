@@ -182,6 +182,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"citizenlab.md": {
+	id: "citizenlab.md";
+  slug: "citizenlab";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "food-delivery.md": {
 	id: "food-delivery.md";
   slug: "food-delivery";

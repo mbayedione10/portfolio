@@ -6,7 +6,7 @@ img_alt: a screen shot of a web page with a purple and blue background
 description: |
   I developed the Taxaw Temm web platform, focusing on creating interactive features, ensuring accessibility of the 'Taxaw Temm!' toolkit online, and enhancing digital security awareness to combat cyberbullying.
 tags:
-  - AstroJS
+  - Astro.js
   - Tailwind CSS
   - Dev
 ---
