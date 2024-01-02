@@ -28,7 +28,7 @@ The GBST E-commerce Platform is a strategic move to enhance the company's online
 [![Button Click]][Link]
 
 [Button Click]: https://img.shields.io/badge/CLICK_TO_EXPLORE!-37a779?style=for-the-badge&color=gray 
-[Link]: https://gbst-1.odoo.com/ 'Link with example title.'
+[Link]: https://www.globalholdingsn.com/ 'Link with example title.'
 
 
 

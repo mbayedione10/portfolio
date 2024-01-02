@@ -175,50 +175,59 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"work": {
-"bloom-box.md": {
-	id: "bloom-box.md";
-  slug: "bloom-box";
+"baykatb.md": {
+	id: "baykatb.md";
+  slug: "baykatb";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"h20.md": {
-	id: "h20.md";
-  slug: "h20";
+"food-delivery.md": {
+	id: "food-delivery.md";
+  slug: "food-delivery";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"markdown-mystery-tour.md": {
-	id: "markdown-mystery-tour.md";
-  slug: "markdown-mystery-tour";
+"gbst.md": {
+	id: "gbst.md";
+  slug: "gbst";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"nested/duvet-genius.md": {
-	id: "nested/duvet-genius.md";
-  slug: "nested/duvet-genius";
+"gtfc.md": {
+	id: "gtfc.md";
+  slug: "gtfc";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"mooc.md": {
+	id: "mooc.md";
+  slug: "mooc";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "taxawtemm.md": {
 	id: "taxawtemm.md";
   slug: "taxawtemm";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 };
 
 	};
 
 	type DataEntryMap = {
-		
+		"worked": {
+};
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }
