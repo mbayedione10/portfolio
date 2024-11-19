@@ -18,11 +18,5 @@ This project showcases my expertise in Astro.js web development, emphasizing my 
 [![Button Click]][Link]
 
 [Button Click]: https://img.shields.io/badge/CLICK_TO_EXPLORE!-37a779?style=for-the-badge&color=gray 
-[Link]: https://baykatb.com/ 'Link with example title.'
-
-
-[![View Project]][Project Link] 
-
-[View Project]: https://img.shields.io/badge/View_Project-37a779?style=for-the-badge&color=gray 
-[Project Link]: https://github.com/mbayedione10/baykatandbusiness
+[Link]: https://baykatb.netlify.app 'Link with example title.'
 
