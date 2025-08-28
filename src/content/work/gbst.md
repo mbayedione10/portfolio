@@ -9,6 +9,7 @@ tags:
   - Odoo
   - E-commerce
   - Dev
+live_url: https://www.globalholdingsn.com/
 ---
 
 he GBST E-commerce Platform, developed using Odoo, represents a transformative leap in online shopping. This innovative solution is tailored to streamline and enhance the e-commerce operations of GBST Company.

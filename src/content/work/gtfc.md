@@ -6,9 +6,11 @@ img_alt: login page
 description: |
   I crafted the GTFC Monitoring and Evaluation Platform, empowering the municipality with streamlined meeting management, precise decision tracking, and enhanced collaboration, all within an accessible and open-source framework.
 tags:
-  - Refine
   - Supabase
+  - Refine
   - Dev
+live_url: https://gtfc-africtivistes.netlify.app/
+repo_url: https://github.com/mbayedione10/gtfc-admin
 ---
 
 
@@ -34,13 +36,11 @@ In summary, the GTFC Monitoring and Evaluation Platform represents a significant
 
 [![Button Click]][Link]
 
-[Button Click]: https://img.shields.io/badge/CLICK_TO_EXPLORE!-37a779?style=for-the-badge&color=gray 
+[Button Click]: https://img.shields.io/badge/CLICK_TO_EXPLORE!-37a779?style=for-the-badge&color=gray
 [Link]: https://gtfc-africtivistes.netlify.app/ 'Link with example title.'
 
 
-[![View Project]][Project Link] 
+[![View Project]][Project Link]
 
-[View Project]: https://img.shields.io/badge/View_Project-37a779?style=for-the-badge&color=gray 
-[Project Link]: https://github.com/mbayedione10/gtfc-admin 
-
-
+[View Project]: https://img.shields.io/badge/View_Project-37a779?style=for-the-badge&color=gray
+[Project Link]: https://github.com/mbayedione10/gtfc-admin

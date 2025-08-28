@@ -9,6 +9,7 @@ tags:
   - Odoo
   - Online Education
   - Dev
+live_url: "https://mooc.africtivistes.org"
 ---
 
 The Charter Project Africa Online Course is a comprehensive learning experience designed to promote civic engagement, political literacy, and active citizenship. This initiative, accessible at [mooc.africtivistes.org](mooc.africtivistes.org), offers valuable insights into democratic processes, citizen rights, transparent governance, and more.

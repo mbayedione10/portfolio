@@ -10,6 +10,8 @@ tags:
   - Wordpress
   - Tailwind CSS
   - Dev
+live_url: https://citizenlabbenin.org/
+repo_url: https://github.com/mbayedione10/citizenlabben
 ---
 
 AfricTivistes CitizenLab Benin is a dedicated citizens' network committed to supporting, accompanying, and equipping civil society players in Benin through comprehensive training and the development of innovative tools.

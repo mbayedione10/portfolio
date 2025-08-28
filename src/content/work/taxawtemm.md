@@ -9,6 +9,8 @@ tags:
   - Astro.js
   - Tailwind CSS
   - Dev
+live_url: https://taxawtemm.netlify.app
+repo_url: https://github.com/mbayedione10/taxawtemm
 ---
 
 The Taxaw Temm project is a crucial component of the "AfricTivistes Femmes Cybersécurité" program within the larger initiative "Afrique Média Cybersécurité," launched by  [AfricTivistes](https://www.africtivistes.com) in 2017 in partnership with Internews. This program offers specialized training in cybersecurity, organizational security, and combating online harassment, specifically designed for women journalists and human rights defenders in Senegal and the Democratic Republic of Congo.

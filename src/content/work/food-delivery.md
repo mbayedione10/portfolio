@@ -9,6 +9,7 @@ tags:
   - Django
   - Bootstrap
   - Dev
+repo_url: https://github.com/mbayedione10/Food-Delivery-Web-App-With-Django
 ---
 
 The Food Delivery Web App project is a feature-rich application designed to streamline food ordering and delivery processes. Leveraging Django's robust framework, I meticulously crafted an intuitive and responsive user interface, ensuring a seamless experience for customers and restaurant partners alike.

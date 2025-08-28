@@ -10,6 +10,8 @@ tags:
   - Tailwind CSS
   - React
   - Dev
+live_url: https://sil-sarl.netlify.app/
+repo_url: https://github.com/mbayedione10/SIL-SA
 ---
 
 

@@ -9,6 +9,7 @@ tags:
   - Astro.js
   - Tailwind CSS
   - Dev
+live_url: https://baykatb.netlify.app
 ---
 
 Baykat & Business provides tailored expertise for farmers looking to boost yields, investors seeking agribusiness opportunities, and organizations dedicated to supporting agriculture.
