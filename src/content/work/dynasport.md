@@ -1,13 +1,18 @@
 ---
-title: "DYNASPORTS"
-description: "Development of a modern and responsive showcase website for DYNASPORTS, a key player in sports equipment in Senegal and also present in France. The website highlights their activities, partnerships, and provides an easy way to get in touch."
-publishDate: 2025-02-28
+title: DYNASPORTS
+publishDate: 2025-02-28 00:00:00
+img: /assets/dynasport.webp
+img_alt: Preview of the showcase website developed for DYNASPORTS
+description: Modern and responsive showcase website for DYNASPORTS, a key player in sports equipment in Senegal and France — highlighting activities, partnerships, and contact.
+category: Dev
 tags:
   - Astro.js
   - Tailwind CSS
-  - Web Development
-img: "/assets/dynasport.webp"
-img_alt: "Preview of the showcase website developed for DYNASPORTS"
-live_url: "https://dynasport.sn"
-repo_url: "https://github.com/mbayedione/dynasports"
+highlights:
+  - High-performance static site built with Astro.js and Tailwind CSS
+  - Showcases sports equipment catalog, partnerships, and company activities
+  - Responsive design optimized for desktop and mobile
+  - Contact section for easy client engagement
+link: https://dynasport.sn
+github: https://github.com/mbayedione/dynasports
 ---
