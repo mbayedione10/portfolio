@@ -189,6 +189,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"dynasport.md": {
+	id: "dynasport.md";
+  slug: "dynasport";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "food-delivery.md": {
 	id: "food-delivery.md";
   slug: "food-delivery";
@@ -243,9 +250,7 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		"worked": {
-};
-
+		
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
