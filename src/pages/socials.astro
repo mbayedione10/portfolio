@@ -1,51 +1,100 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Icon } from "astro-icon";
 import { socials } from "../utils/data";
-
-type Socials = {
-    name: string;
-    url: string;
-    imgSrc: string;
-    ariaLabel: string;
-};
 ---
 
 <BaseLayout
     title="Mamadou Mb. DIONE | Socials"
     description="Links for social media of Mamadou Mb. DIONE"
 >
-    <main>
-        <div class="wrapper stack gap-8 lg:gap-20">
+    <main class="wrapper stack gap-8">
+        <div class="profile">
             <img
-                alt="Mbaye Dione"
-                width="480"
-                height="620"
+                alt="Mamadou Mb. Dione"
+                class="avatar"
                 src="https://res.cloudinary.com/dkgciiiov/image/upload/v1697029828/wnhuzaublejkg1iwxs49.png"
             />
+            <h2>Mamadou Mb. DIONE</h2>
+            <p>Full-Stack Developer & Project Manager · Dakar, Senegal</p>
         </div>
 
-        <img
-            src="https://res.cloudinary.com/dkgciiiov/image/upload/v1697029828/wnhuzaublejkg1iwxs49.png"
-            class="mx-auto border-2 border-white border-solid rounded-full w-40 mb-10"
-        />
-        <h2 class="px-2 mb-3 text-3xl text-center text-white">
-            Mamadou Mb. DIONE
-        </h2>
-        <p class="px-2 mb-10 text-2xl font-bold text-center">
-            FullStack Developer based in Senegal
-        </p>s
-        <div>
-            {
-                socials.map((opt: Socials) => {
-                    return (
-                        <a href={opt.url} aria-label={opt.ariaLabel}>
-                            <Icon name={opt.imgSrc} class="mr-2" />
-                            <p class="text-gray-800">{opt.name}</p>
-                        </a>
-                    );
-                })
-            }
+        <div class="socials-list">
+            {socials.map((s) => (
+                <a href={s.url} aria-label={s.ariaLabel} class="social-link" target="_blank" rel="noopener noreferrer">
+                    <span>{s.name}</span>
+                    <span class="arrow">↗</span>
+                </a>
+            ))}
         </div>
     </main>
 </BaseLayout>
+
+<style>
+    main {
+        max-width: 480px;
+        margin-inline: auto;
+        padding: 3rem 1.5rem;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+        text-align: center;
+    }
+
+    .avatar {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid var(--gray-800);
+    }
+
+    .profile h2 {
+        font-size: var(--text-xl);
+        color: var(--gray-0);
+    }
+
+    .profile p {
+        font-size: var(--text-sm);
+        color: var(--gray-400);
+    }
+
+    .socials-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .social-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        border: 1px solid var(--gray-800);
+        border-radius: 0.75rem;
+        background: var(--gray-999_40);
+        color: var(--gray-200);
+        text-decoration: none;
+        font-size: var(--text-sm);
+        font-weight: 500;
+        transition: border-color 0.2s ease, color 0.2s ease;
+    }
+
+    .social-link:hover {
+        border-color: var(--accent-regular);
+        color: var(--gray-0);
+    }
+
+    .arrow {
+        color: var(--gray-500);
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .social-link:hover .arrow {
+        color: var(--accent-regular);
+        transform: translate(2px, -2px);
+    }
+</style>
