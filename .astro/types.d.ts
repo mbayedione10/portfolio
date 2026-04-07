@@ -217,6 +217,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"odoo-consulting.md": {
+	id: "odoo-consulting.md";
+  slug: "odoo-consulting";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "sil-sarl.md": {
 	id: "sil-sarl.md";
   slug: "sil-sarl";

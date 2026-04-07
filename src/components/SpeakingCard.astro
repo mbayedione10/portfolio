@@ -1,0 +1,104 @@
+---
+interface Props {
+  tag: string;
+  tagVariant?: 'default' | 'award' | 'training';
+  title: string;
+  desc: string;
+  href?: string;
+}
+
+const { tag, tagVariant = 'default', title, desc, href } = Astro.props;
+const Tag = href ? 'a' : 'div';
+---
+
+<Tag
+  class="speaking-card"
+  href={href}
+  target={href ? '_blank' : undefined}
+  rel={href ? 'noopener noreferrer' : undefined}
+>
+  <span class:list={['speaking-tag', `speaking-tag--${tagVariant}`]}>{tag}</span>
+  <div class="card-text">
+    <p class="speaking-title">{title}</p>
+    <p class="speaking-desc">{desc}</p>
+  </div>
+  {href && <span class="card-arrow" aria-hidden="true">↗</span>}
+</Tag>
+
+<style>
+  .speaking-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid var(--gray-800);
+    background: var(--gray-999_40);
+    text-decoration: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  a.speaking-card:hover {
+    border-color: var(--accent-regular);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .speaking-tag {
+    display: inline-block;
+    width: fit-content;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.15rem 0.65rem;
+    border-radius: 999rem;
+    background: var(--accent-regular);
+    color: var(--accent-text-over);
+  }
+
+  .speaking-tag--award {
+    background: #c8a400;
+    color: #000;
+  }
+
+  .speaking-tag--training {
+    background: var(--gray-700);
+    color: var(--gray-100);
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .speaking-title {
+    font-weight: 600;
+    color: var(--gray-0);
+    font-size: var(--text-sm);
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .speaking-desc {
+    color: var(--gray-400);
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .card-arrow {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--gray-500);
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  a.speaking-card:hover .card-arrow {
+    color: var(--accent-regular);
+    transform: translate(2px, -2px);
+  }
+</style>

@@ -1,40 +1,18 @@
 ---
-title: TaxawTemm
+title: Taxaw Temm
 publishDate: 2023-08-02 00:00:00
 img: https://res.cloudinary.com/dkgciiiov/image/upload/v1696932184/rlqzg3gswabpqrdxh7ab.png
-img_alt: a screen shot of a web page with a purple and blue background
-description: |
-  I developed the Taxaw Temm web platform, focusing on creating interactive features, ensuring accessibility of the 'Taxaw Temm!' toolkit online, and enhancing digital security awareness to combat cyberbullying.
+img_alt: Taxaw Temm platform screenshot
+description: Web platform raising digital security awareness and combating cyberbullying, targeting women journalists and human rights defenders.
+category: Civic Tech
 tags:
   - Astro.js
   - Tailwind CSS
-  - Dev
+highlights:
+  - Interactive toolkit accessible online for combating cyberbullying
+  - Built for women journalists and HRDs in Senegal and DRC
+  - Part of the AfricTivistes Femmes Cybersécurité program
+  - Responsive, accessible, multilingual design
+link: https://taxawtemm.netlify.app
+github: https://github.com/mbayedione10/taxawtemm
 ---
-
-The Taxaw Temm project is a crucial component of the "AfricTivistes Femmes Cybersécurité" program within the larger initiative "Afrique Média Cybersécurité," launched by  [AfricTivistes](https://www.africtivistes.com) in 2017 in partnership with Internews. This program offers specialized training in cybersecurity, organizational security, and combating online harassment, specifically designed for women journalists and human rights defenders in Senegal and the Democratic Republic of Congo.
-
-The project comprises three interconnected elements:
-
-- Safe Sisters
-- Tech Sisters
-- Awareness Campaign "Taxaw Temm! Aar Sunu Bopp"
-
-To expand the impact of this campaign, a web platform is developed. At the core of the Taxaw Temm project, this platform aims to make the "Taxaw Temm!" toolkit accessible online. It will provide interactive features to enhance awareness of digital security and combat cyberbullying.
-
-The Taxaw Temm platform aims to cater to a diverse audience, including young individuals aged 10 and above, parents, educators, and anyone concerned about preventing cyberbullying. By addressing the unique challenges faced by women journalists and human rights defenders, the platform becomes an inclusive space fostering a safer online environment for all.
-
-By integrating these features and objectives, the Taxaw Temm platform strives not only to raise awareness about digital security but also to provide concrete tools and support mechanisms, ensuring a positive and secure online experience for everyone.
-
-
-[![Button Click]][Link]
-
-[Button Click]: https://img.shields.io/badge/Click_Me!-37a779?style=for-the-badge&color=gray 
-[Link]: https://taxawtemm.netlify.app 'Link with example title.'
-
-
-[![View Project]][Project Link] 
-
-[View Project]: https://img.shields.io/badge/View_Project-37a779?style=for-the-badge&color=gray 
-[Project Link]: https://github.com/mbayedione10/taxawtemm 'TaxawTemm'
-
-

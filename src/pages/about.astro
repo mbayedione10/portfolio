@@ -1,22 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Mamadou Mb. Dione" description="Full-Stack Developer & Project Manager based in Dakar, Senegal.">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="About Me"
+				tagline="Developer, Project Manager, and civic tech advocate based in Dakar, Senegal."
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/note.webp"
+					alt="Mamadou Mb. Dione at work"
 				/>
 			</Hero>
 
@@ -24,36 +24,125 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl
-						condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu
-						odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum
-						dui faucibus in ornare.
+						I'm a Full-Stack Developer and Project Manager with a strong engineering background,
+						building secure, scalable, and high-impact web applications across Africa since 2019.
+						I specialize in backend architecture, API design, data security, and modern frontend
+						technologies — while also leading projects end-to-end as a PM.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						My work sits at the intersection of technology and social impact. I've built and deployed
+						civic tech platforms used by 1,000+ users across 10+ African countries, including systems
+						for e-learning, citizen engagement, GBV victim support, and digital rights advocacy.
 					</p>
 				</div>
 			</section>
+
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<div class="experience-list">
+						<div class="experience-item">
+							<div class="exp-header">
+								<div>
+									<span class="exp-title">Full-Stack Developer & Project Manager</span>
+									<span class="exp-company">AfricTivistes · Dakar, Senegal</span>
+								</div>
+								<span class="exp-date">Apr 2022 – Present</span>
+							</div>
+							<ul>
+								<li>Led design, development, and deployment of civic tech and e-learning platforms across 10+ African countries</li>
+								<li>Coordinated cross-functional teams (developers, designers, stakeholders) for scalable digital solutions</li>
+								<li>Complete redesign of Y'en A Marre digital platforms — improved usability, performance, and accessibility</li>
+								<li>Built high-performance platforms with Astro.js and NocoDB (farafina.tech, soobu.tech)</li>
+								<li>Conducted technical training for NGOs and stakeholders</li>
+							</ul>
+						</div>
+
+						<div class="experience-item">
+							<div class="exp-header">
+								<div>
+									<span class="exp-title">IT Consultant & Developer</span>
+									<span class="exp-company">Freelance</span>
+								</div>
+								<span class="exp-date">Jan 2021 – Present</span>
+							</div>
+							<ul>
+								<li>Built backend of Gquiose App (Laravel) — secure platform for GBV victims with encrypted evidence storage and anonymous reporting</li>
+								<li>Implemented and customized Odoo ERP systems for NGOs and SMEs across Senegal</li>
+								<li>Managed end-to-end delivery of web and ERP projects from requirements to deployment</li>
+								<li>Delivered training sessions for 100+ students on databases and programming</li>
+							</ul>
+						</div>
+
+						<div class="experience-item">
+							<div class="exp-header">
+								<div>
+									<span class="exp-title">IT Manager</span>
+									<span class="exp-company">SCL Energies Solutions · Mbour, Senegal</span>
+								</div>
+								<span class="exp-date">Dec 2019 – Apr 2022</span>
+							</div>
+							<ul>
+								<li>Automated monthly reporting with Python — reduced generation time from 10 days to less than 1 day</li>
+								<li>Developed a COVID-19 social support beneficiary tracking system</li>
+								<li>Managed SQL Server databases and implemented automated backup systems</li>
+								<li>Implemented Active Directory for user and access management</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title">Achievements</h2>
+				<div class="content">
+					<div class="achievements-grid">
+						<div class="achievement-card">
+							<Icon icon="microphone-stage" color="var(--accent-regular)" size="1.5rem" />
+							<span>Speaker at <strong>FIFAfrica 2025</strong> (Namibia) on digital rights and civic tech</span>
+						</div>
+						<div class="achievement-card">
+							<Icon icon="microphone-stage" color="var(--accent-regular)" size="1.5rem" />
+							<span>Speaker at <strong>African Electoral Integrity Summit</strong> (Kampala) on AI and electoral transparency</span>
+						</div>
+						<div class="achievement-card">
+							<Icon icon="trophy" color="var(--accent-regular)" size="1.5rem" />
+							<span><strong>Runner-Up</strong> at Refine + DEV Hackathon</span>
+						</div>
+						<div class="achievement-card">
+							<Icon icon="strategy" color="var(--accent-regular)" size="1.5rem" />
+							<span>Mentored <strong>5 teams</strong> at #Innov4Democracy Hackathon</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<div class="edu-list">
+						<div class="edu-item">
+							<span class="edu-degree">Engineer in Computer Science & Telecommunications</span>
+							<span class="edu-school">ESMT, Dakar</span>
+							<span class="edu-year">2019</span>
+						</div>
+						<div class="edu-item">
+							<span class="edu-degree">Preparatory classes — Mathematics, Physics & Computer Science</span>
+							<span class="edu-school">IMES, Dakar</span>
+							<span class="edu-year">2016</span>
+						</div>
+					</div>
 				</div>
 			</section>
+
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Languages</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<div class="lang-list">
+						<span class="lang-item">French <em>Fluent</em></span>
+						<span class="lang-item">English <em>Fluent</em></span>
+						<span class="lang-item">Wolof <em>Fluent</em></span>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -83,24 +172,157 @@ import Hero from '../components/Hero.astro';
 	}
 
 	.section-title {
-		grid-column-start: 1;
 		font-size: var(--text-xl);
 		color: var(--gray-0);
+		border-bottom: 1px solid var(--gray-800);
+		padding-bottom: 0.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.content {
-		grid-column: 2 / 4;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
 	}
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
+	.content p {
+		color: var(--gray-300);
+		line-height: 1.7;
 	}
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
+	/* Experience */
+	.experience-list {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.experience-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		padding: 1.25rem;
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		background: var(--gray-999_40);
+	}
+
+	.exp-header {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.exp-title {
+		font-weight: 600;
+		color: var(--gray-0);
+		font-size: var(--text-md);
+	}
+
+	.exp-company {
+		display: block;
+		color: var(--accent-regular);
+		font-size: var(--text-sm);
+	}
+
+	.exp-date {
+		color: var(--gray-400);
+		font-size: var(--text-sm);
+		white-space: nowrap;
+	}
+
+	.experience-item ul {
+		padding-left: 1.25rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+	}
+
+	.experience-item li {
+		color: var(--gray-300);
+		font-size: var(--text-sm);
+		line-height: 1.5;
+	}
+
+	/* Achievements */
+	.achievements-grid {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: 1fr;
+	}
+
+	.achievement-card {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.75rem;
+		padding: 1rem 1.25rem;
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		background: var(--gray-999_40);
+		color: var(--gray-300);
+		font-size: var(--text-sm);
+		line-height: 1.5;
+	}
+
+	.achievement-card :global(svg) {
+		flex-shrink: 0;
+		margin-top: 0.1em;
+	}
+
+	.achievement-card strong {
+		color: var(--gray-0);
+	}
+
+	/* Education */
+	.edu-list {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.edu-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+	}
+
+	.edu-degree {
+		font-weight: 600;
+		color: var(--gray-0);
+		font-size: var(--text-sm);
+	}
+
+	.edu-school {
+		color: var(--accent-regular);
+		font-size: var(--text-sm);
+	}
+
+	.edu-year {
+		color: var(--gray-400);
+		font-size: var(--text-sm);
+	}
+
+	/* Languages */
+	.lang-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.lang-item {
+		display: flex;
+		gap: 0.5rem;
+		padding: 0.4rem 1rem;
+		border: 1px solid var(--gray-800);
+		border-radius: 999rem;
+		font-size: var(--text-sm);
+		color: var(--gray-200);
+		background: var(--gray-999_40);
+	}
+
+	.lang-item em {
+		color: var(--gray-400);
+		font-style: normal;
 	}
 
 	@media (min-width: 50em) {
@@ -116,6 +338,24 @@ import Hero from '../components/Hero.astro';
 		section {
 			display: contents;
 			font-size: var(--text-lg);
+		}
+
+		.section-title {
+			grid-column-start: 1;
+		}
+
+		.content {
+			grid-column: 2 / 4;
+		}
+
+		.exp-header {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+
+		.achievements-grid {
+			grid-template-columns: 1fr 1fr;
 		}
 	}
 </style>
