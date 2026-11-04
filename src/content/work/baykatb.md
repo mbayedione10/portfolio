@@ -1,7 +1,7 @@
 ---
 title: Baykat & Business
 publishDate: 2023-10-20 00:00:00
-img: https://res.cloudinary.com/dkgciiiov/image/upload/v1699443232/eglvpjzhgvkv57temvqr.png
+img: /assets/baykatb.webp
 img_alt: Baykat & Business landing page
 description: Landing page for an agribusiness platform connecting farmers, investors, and agricultural organizations.
 category: Dev

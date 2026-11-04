@@ -13,6 +13,7 @@ export const collections = {
 			highlights: z.array(z.string()).optional(),
 			link: z.string().optional(),
 			github: z.string().optional(),
+			featured: z.number().int().positive().optional(),
 		}),
 	}),
 };

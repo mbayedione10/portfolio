@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { technologies, pmStats, pmSkills, pmTools, speakingEvents } from "../utils/data";
+import { sortProjects } from "../utils/sortProjects";
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 import CallToAction from "../components/CallToAction.astro";
@@ -15,9 +16,7 @@ import Skills from "../components/Skills.astro";
 import StatCard from "../components/StatCard.astro";
 import SpeakingCard from "../components/SpeakingCard.astro";
 
-const projects = (await getCollection("work"))
-  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
-  .slice(0, 4);
+const projects = sortProjects(await getCollection("work")).slice(0, 4);
 
 type TechBadgeProps = {
   name: string;
@@ -51,7 +50,9 @@ type TechBadgeProps = {
           alt="Mbaye Dione"
           width="480"
           height="620"
-          src="https://res.cloudinary.com/dkgciiiov/image/upload/v1697029828/wnhuzaublejkg1iwxs49.png"
+          src="/assets/portrait.webp"
+          fetchpriority="high"
+          decoding="async"
         />
       </header>
 

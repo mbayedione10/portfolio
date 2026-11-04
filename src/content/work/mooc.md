@@ -1,7 +1,7 @@
 ---
 title: AfricTivistes MOOC Platform
 publishDate: 2022-07-02 00:00:00
-img: https://res.cloudinary.com/dkgciiiov/image/upload/v1697132078/ots20bzyjcz9tuzt95ig.png
+img: /assets/mooc.webp
 img_alt: MOOC DEG Platform screenshot
 description: E-learning platform built on Odoo for civic education and democratic engagement across 10+ African countries.
 category: Odoo

@@ -175,6 +175,27 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"work": {
+"africtivistes.md": {
+	id: "africtivistes.md";
+  slug: "africtivistes";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"afrikajom.md": {
+	id: "afrikajom.md";
+  slug: "afrikajom";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"apin.md": {
+	id: "apin.md";
+  slug: "apin";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "baykatb.md": {
 	id: "baykatb.md";
   slug: "baykatb";
@@ -185,6 +206,13 @@ declare module 'astro:content' {
 "citizenlab.md": {
 	id: "citizenlab.md";
   slug: "citizenlab";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"citizenmic.md": {
+	id: "citizenmic.md";
+  slug: "citizenmic";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
@@ -203,9 +231,16 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"gbst.md": {
-	id: "gbst.md";
-  slug: "gbst";
+"goob.md": {
+	id: "goob.md";
+  slug: "goob";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"gquiose.md": {
+	id: "gquiose.md";
+  slug: "gquiose";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
@@ -231,6 +266,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"odoo18-senegal.md": {
+	id: "odoo18-senegal.md";
+  slug: "odoo18-senegal";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "sil-sarl.md": {
 	id: "sil-sarl.md";
   slug: "sil-sarl";
@@ -241,6 +283,13 @@ declare module 'astro:content' {
 "taxawtemm.md": {
 	id: "taxawtemm.md";
   slug: "taxawtemm";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"yenamarre.md": {
+	id: "yenamarre.md";
+  slug: "yenamarre";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">

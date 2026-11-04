@@ -13,6 +13,5 @@ highlights:
   - Showcases sports equipment catalog, partnerships, and company activities
   - Responsive design optimized for desktop and mobile
   - Contact section for easy client engagement
-link: https://dynasport.sn
-github: https://github.com/mbayedione/dynasports
+link: https://dynasport.netlify.app
 ---
